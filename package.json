@@ -7,9 +7,13 @@
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-typescript": "^7.3.3",
-    "babel-jest": "^24.8.0"
+    "babel-jest": "^24.8.0",
+    "typescript": "^3.5.3"
   },
   "dependencies": {
     "@jest/types": "^24.8.0"
+  },
+  "scripts": {
+    "build": "tsc"
   }
 }
